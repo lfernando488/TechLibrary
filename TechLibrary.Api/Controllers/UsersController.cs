@@ -13,7 +13,7 @@ namespace TechLibrary.Api.Controllers
         [HttpPost]
         [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
-        public IActionResult Create(RequestUserJson requestUserJson)
+        public IActionResult Register(RequestUserJson requestUserJson)
         {
             try
             {
